@@ -11,7 +11,7 @@ export default class Navbar extends Component {
         <div className="collapse navbar-collapse" id="myNavbar">
             <div className="container-fluid" >
                 <div className="row" >
-                    <div className="col-lg-3 sidebar fixed-top" >
+                    <div className="col-xl-2 col-lg-3 col-md-4 sidebar fixed-top" >
                       <a href="" className="navbar-brand text-white d-block mx-auto text-center py-3 mb-4 bottom-border">CodeandCreate</a>
                    <div className="bottom-border pb-3">
                      <img src={Admin} style={{width:'50px'}} className="rounded-circle mr-3" />
@@ -40,7 +40,7 @@ export default class Navbar extends Component {
             
                    </ul>
                     </div>
-                    <div className="col-lg-9 ml-auto bg-dark fixed-top py-2">
+                    <div className="col-xl-10 col-lg-9 col-md-8 top-navbar ml-auto bg-dark fixed-top py-2">
                       <div className="row align-items-center">
                         
                         <div className="col-md-4">
@@ -50,17 +50,17 @@ export default class Navbar extends Component {
                         <div className="col-md-5">
                         <form action="">
                           <div className="input-group">
-                            <input type="text" className="form-control" placeholder="search"/>
-                            <button type="button" className="btn btn-white"> <i className="fa fa-search text-danger"> </i> </button>
+                            <input type="text" className="form-control search-input" placeholder="search"/>
+                            <button type="button" className="btn btn-white search-button"> <i className="fa fa-search text-danger"> </i> </button>
                           </div>
                         </form>
                         </div>
                         
                         <div className="col-md-3">
                           <div className="navbar-nav">
-                            <li className="nav-item"><a href="" className="nav-link"><i className="fa fa-comments text-muted fa-lg"></i> </a> </li>
-                            <li className="nav-item"><a href="" className="nav-link"><i className="fa fa-bell text-muted fa-lg"></i> </a> </li>
-                            <li className="nav-item ml-auto"><a href="" className="nav-link"><i className="fa fa-sign-out-alt text-danger fa-lg"></i> </a> </li>
+                            <li className="nav-item icon-parent"><a href="" className="nav-link icon-bullet"><i className="fa fa-comments text-muted fa-lg"></i> </a> </li>
+                            <li className="nav-item icon-parent"><a href="" className="nav-link icon-bullet"><i className="fa fa-bell text-muted fa-lg"></i> </a> </li>
+                            <li className="nav-item ml-md-auto"><a href="" className="nav-link"><i className="fa fa-sign-out-alt text-danger fa-lg"></i> </a> </li>
                           </div>
                         </div>
                       </div>
