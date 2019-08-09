@@ -40,8 +40,30 @@ export default class Navbar extends Component {
             
                    </ul>
                     </div>
-                    <div className="col-lg-9">
-
+                    <div className="col-lg-9 ml-auto bg-dark fixed-top py-2">
+                      <div className="row align-items-center">
+                        
+                        <div className="col-md-4">
+                          <h4 className="text-light mb-0">DASHBOARD</h4>
+                        </div>
+                        
+                        <div className="col-md-5">
+                        <form action="">
+                          <div className="input-group">
+                            <input type="text" className="form-control" placeholder="search"/>
+                            <button type="button" className="btn btn-white"> <i className="fa fa-search text-danger"> </i> </button>
+                          </div>
+                        </form>
+                        </div>
+                        
+                        <div className="col-md-3">
+                          <div className="navbar-nav">
+                            <li className="nav-item"><a href="" className="nav-link"><i className="fa fa-comments text-muted fa-lg"></i> </a> </li>
+                            <li className="nav-item"><a href="" className="nav-link"><i className="fa fa-bell text-muted fa-lg"></i> </a> </li>
+                            <li className="nav-item ml-auto"><a href="" className="nav-link"><i className="fa fa-sign-out-alt text-danger fa-lg"></i> </a> </li>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                 </div>
             </div>
