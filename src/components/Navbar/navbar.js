@@ -168,7 +168,71 @@ export default class Navbar extends Component {
     </div>
   </div>
 </section>
-
+                  {/* Table section started from here */}
+    <section>
+      <div className="container-fluid">
+        <div className="row mt-5">
+          <div className="col-xl-10 col-lg-9 col-md-8 ml-auto">
+            <div className="row">
+              <div className="col-12">
+              <h3 className="text-muted text-center mb-3">Staff Sallery</h3>
+              <table className="table table-striped bg-light text-center">
+                <thead>
+                  <tr className="text-muted"> 
+                  <th>#</th>
+                  <th>Name</th>
+                  <th>Sallery</th>
+                  <th>Date</th>
+                  <th>Contact</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Suleman</td>
+                    <td>$2000</td>
+                    <td>25/05/2018</td>
+                    <td><button type="button" className="btn btn-info btn-sm">Message </button></td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Hassan</td>
+                    <td>$2000</td>
+                    <td>25/05/2018</td>
+                    <td><button type="button" className="btn btn-info btn-sm">Message </button></td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Abdulrehman</td>
+                    <td>$2000</td>
+                    <td>25/05/2018</td>
+                    <td><button type="button" className="btn btn-info btn-sm">Message </button></td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Usama</td>
+                    <td>$2000</td>
+                    <td>25/05/2018</td>
+                    <td><button type="button" className="btn btn-info btn-sm">Message </button></td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>Hamza</td>
+                    <td>$2000</td>
+                    <td>25/05/2018</td>
+                    <td><button type="button" className="btn btn-info btn-sm">Message </button></td>
+                  </tr>
+                </tbody>
+                 </table>
+              </div>
+              <div className="col-12">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     </div>
     );
