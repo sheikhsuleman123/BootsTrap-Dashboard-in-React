@@ -174,7 +174,7 @@ export default class Navbar extends Component {
         <div className="row mt-5">
           <div className="col-xl-10 col-lg-9 col-md-8 ml-auto">
             <div className="row">
-              <div className="col-12">
+              <div className="col-xl-6 col-12 mb-4">
               <h3 className="text-muted text-center mb-3">Staff Sallery</h3>
               <table className="table table-striped bg-light text-center">
                 <thead>
@@ -252,9 +252,88 @@ export default class Navbar extends Component {
                       </li>
                    </ul>
                  </nav>
+                {/* Pagination is end here  */}
+
               </div>
-              <div className="col-12">
-                
+              <div className="col-xl-6 col-12">
+              <h3 className="text-muted text-center mb-3">Recent Payments</h3>
+              <table className="table table-dark table-hover table-center">
+              <thead>
+                  <tr className="text-muted"> 
+                  <th>#</th>
+                  <th>Name</th>
+                  <th>Price</th>
+                  <th>Date</th>
+                  <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Suleman</td>
+                    <td>$2000</td>
+                    <td>25/05/2018</td>
+                    <td><span className="badge badge-success w-75 py-2">Approved</span> </td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Abdulrehman</td>
+                    <td>$2000</td>
+                    <td>25/05/2018</td>
+                    <td><span className="badge badge-success w-75 py-2">Approved</span> </td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Hassan</td>
+                    <td>$2000</td>
+                    <td>25/05/2018</td>
+                    <td><span className="badge badge-danger w-75 py-2">Approved</span> </td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Usama</td>
+                    <td>$2000</td>
+                    <td>25/05/2018</td>
+                    <td><span className="badge badge-success w-75 py-2">Approved</span> </td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>Hamza</td>
+                    <td>$2000</td>
+                    <td>25/05/2018</td>
+                    <td><span className="badge badge-danger w-75 py-2">Approved</span> </td>
+                  </tr>
+               </tbody> 
+              </table>
+
+              <nav>
+                   <ul className="pagination justify-content-center">
+                      <li className="page-item">
+                        <a href="#" className="page-link py-2 px-3">
+                          <span>Previous </span>
+                        </a>
+                      </li>
+                      <li className="page-item active">
+                        <a href="#" className="page-link py-2 px-3">
+                          1
+                        </a>
+                      </li><li className="page-item">
+                        <a href="#" className="page-link py-2 px-3">
+                          2
+                        </a>
+                      </li><li className="page-item">
+                        <a href="#" className="page-link py-2 px-3">
+                          3
+                        </a>
+                      </li>
+                      <li className="page-item">
+                        <a href="#" className="page-link py-2 px-3">
+                          <span>Next </span>
+                        </a>
+                      </li>
+                   </ul>
+                 </nav>
+
               </div>
             </div>
           </div>
