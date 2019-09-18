@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import './navbar.css';
 import Admin from '../../images/admin.PNG';
+import $ from 'jquery';
 
 export default class Navbar extends Component {
+  
   render() {
     return (
     <div>
@@ -346,8 +348,8 @@ export default class Navbar extends Component {
         <div className="container-fluid">
           <div className="row">
             <div className="col-xl-10 col-lg-9 col-md-8 ml-auto">
-              <div className="row mb-4">
-                <div className="col-xl-6 col-12">
+              <div className="row mb-4 align-items-center">
+                <div className="col-xl-6 col-12 mb-4 mb-xl-0">
                   <div className="bg-dark text-white p-4 rounded">
                     <h4 className="mb-5">Coversion Rates</h4>
                     <h6 className="mb-3">Google Chrome</h6>
@@ -369,7 +371,71 @@ export default class Navbar extends Component {
                   </div>
                 </div>
                 <div className="col-xl-6 col-12">
-
+                  <h4 className="text-muted p-3 mb-3">Tasks:</h4>
+                  <div className="container-fluid bg-white">
+                    <div className="row py-3 mb-4 task-border align-items-center">
+                      <div className="col-1">
+                        <input type="checkbox" checked />
+                        </div>
+                        <div className="col-sm-9 col-8">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </div>
+                        <div className="col-1">
+                          <a href="" data-toggle="tooltip" title="edit"><i className="fas fa-edit fa-lg text-success mr-2"></i> </a>
+                      </div>
+                      <div className="col-1">
+                          <a href="" data-toggle="tooltip" title="delete"><i className="fas fa-trash-alt fa-lg text-danger mr-2"></i> </a>
+                      </div>        
+                    </div>
+                  </div>
+                  <div className="container-fluid bg-white">
+                    <div className="row py-3 mb-4 task-border align-items-center">
+                      <div className="col-1">
+                        <input type="checkbox" checked />
+                        </div>
+                        <div className="col-sm-9 col-8">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </div>
+                        <div className="col-1">
+                          <a href="" data-toggle="tooltip" title="edit"><i className="fas fa-edit fa-lg text-success mr-2"></i> </a>
+                      </div>
+                      <div className="col-1">
+                          <a href="" data-toggle="tooltip" title="delete"><i className="fas fa-trash-alt fa-lg text-danger mr-2"></i> </a>
+                      </div>        
+                    </div>
+                  </div>
+                  <div className="container-fluid bg-white">
+                    <div className="row py-3 mb-4 task-border align-items-center">
+                      <div className="col-1">
+                        <input type="checkbox" checked />
+                        </div>
+                        <div className="col-sm-9 col-8">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </div>
+                        <div className="col-1">
+                          <a href="" data-toggle="tooltip" title="edit"><i className="fas fa-edit fa-lg text-success mr-2"></i> </a>
+                      </div>
+                      <div className="col-1">
+                          <a href="" data-toggle="tooltip" title="delete"><i className="fas fa-trash-alt fa-lg text-danger mr-2"></i> </a>
+                      </div>        
+                    </div>
+                  </div><div className="container-fluid bg-white">
+                    <div className="row py-3 mb-4 task-border align-items-center">
+                      <div className="col-1">
+                        <input type="checkbox" checked />
+                        </div>
+                        <div className="col-sm-9 col-8">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </div>
+                        <div className="col-1">
+                          <a href="" data-toggle="tooltip" title="edit"><i className="fas fa-edit fa-lg text-success mr-2"></i> </a>
+                      </div>
+                      <div className="col-1">
+                          <a href="" data-toggle="tooltip" title="delete"><i className="fas fa-trash-alt fa-lg text-danger mr-2"></i> </a>
+                      </div>        
+                    </div>
+                  </div>
+                  
                 </div>
               </div>
             </div>
