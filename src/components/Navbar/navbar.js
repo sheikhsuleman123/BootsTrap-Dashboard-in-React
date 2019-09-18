@@ -1,6 +1,15 @@
 import React, { Component } from 'react';
 import './navbar.css';
 import Admin from '../../images/admin.PNG';
+import Cust1 from '../../images/cust1.jpeg';
+import Cust2 from '../../images/cust2.jpeg';
+import Cust3 from '../../images/cust3.jpeg';
+import Cust4 from '../../images/cust4.jpeg';
+import Cust5 from '../../images/cust5.jpeg';
+import Cust6 from '../../images/cust6.jpeg';
+import Img1 from '../../images/img1.jpeg';
+import Title from '../../images/title.png';
+
 import $ from 'jquery';
 
 export default class Navbar extends Component {
@@ -436,6 +445,98 @@ export default class Navbar extends Component {
                     </div>
                   </div>
                   
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        {/* Activities part is strted here */}
+
+      <section>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-xl-10 col-lg-9 col-md-8 ml-auto">
+              <div className="row">
+                <div className="col-xl-7">
+                  <h4 className="text-muted mb-4">Recent Customer Activities</h4>
+                  <div id="accordion"> 
+                    <div className="card">
+                      <div className="card-header">
+                        <button className="btn btn-block bg-secondary text-light text-left" data-toggle="collapse" data-target="#collapseOne">
+                          <img src={Cust1} width="50" className="mr-3 rounded" alt=""/> John posted a new comment.
+                        </button>
+                      </div>
+                      <div className="collapse" id="collapseOne">
+                        <div className="card-body">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut exercitationem nisi ipsum saepe neque fugiat voluptatibus suscipit aperiam dignissimos.
+                        </div>
+                      </div>
+                    </div>
+                    <div className="card">
+                      <div className="card-header">
+                        <button className="btn btn-block bg-secondary text-light text-left" data-toggle="collapse" data-target="#collapseTwo">
+                          <img src={Cust2} width="50" className="mr-3 rounded" alt=""/> Mark posted a new comment.
+                        </button>
+                      </div>
+                      <div className="collapse" id="collapseTwo">
+                        <div className="card-body">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut exercitationem nisi ipsum saepe neque fugiat voluptatibus suscipit aperiam dignissimos.
+                        </div>
+                      </div>
+                    </div>
+                    <div className="card">
+                      <div className="card-header">
+                        <button className="btn btn-block bg-secondary text-light text-left" data-toggle="collapse" data-target="#collapseThree">
+                          <img src={Cust3} width="50" className="mr-3 rounded" alt=""/> Mark posted a new comment.
+                        </button>
+                      </div>
+                      <div className="collapse" id="collapseThree">
+                        <div className="card-body">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut exercitationem nisi ipsum saepe neque fugiat voluptatibus suscipit aperiam dignissimos.
+                        </div>
+                      </div>
+                    </div>
+                    <div className="card">
+                      <div className="card-header">
+                        <button className="btn btn-block bg-secondary text-light text-left" data-toggle="collapse" data-target="#collapseFour">
+                          <img src={Cust4} width="50" className="mr-3 rounded" alt=""/> Mark posted a new comment.
+                        </button>
+                      </div>
+                      <div className="collapse" id="collapseFour">
+                        <div className="card-body">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut exercitationem nisi ipsum saepe neque fugiat voluptatibus suscipit aperiam dignissimos.
+                        </div>
+                      </div>
+                    </div>
+                    <div className="card">
+                      <div className="card-header">
+                        <button className="btn btn-block bg-secondary text-light text-left" data-toggle="collapse" data-target="#collapseFive">
+                          <img src={Cust5} width="50" className="mr-3 rounded" alt=""/> Mark posted a new comment.
+                        </button>
+                      </div>
+                      <div className="collapse" id="collapseFive">
+                        <div className="card-body">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut exercitationem nisi ipsum saepe neque fugiat voluptatibus suscipit aperiam dignissimos.
+                        </div>
+                      </div>
+                    </div>
+                    <div className="card">
+                      <div className="card-header">
+                        <button className="btn btn-block bg-secondary text-light text-left" data-toggle="collapse" data-target="#collapseSix">
+                          <img src={Cust6} width="50" className="mr-3 rounded" alt=""/> Mark posted a new comment.
+                        </button>
+                      </div>
+                      <div className="collapse" id="collapseSix">
+                        <div className="card-body">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut exercitationem nisi ipsum saepe neque fugiat voluptatibus suscipit aperiam dignissimos.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xl-5">
+
                 </div>
               </div>
             </div>
