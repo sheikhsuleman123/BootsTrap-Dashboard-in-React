@@ -341,6 +341,41 @@ export default class Navbar extends Component {
       </div>
     </section>
 
+                {/* Progressbar is strted here from  */}
+      <section>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-xl-10 col-lg-9 col-md-8 ml-auto">
+              <div className="row mb-4">
+                <div className="col-xl-6 col-12">
+                  <div className="bg-dark text-white p-4 rounded">
+                    <h4 className="mb-5">Coversion Rates</h4>
+                    <h6 className="mb-3">Google Chrome</h6>
+                    <div className="progress mb-3">
+                      <div className="progress-bar progress-bar-striped font-weight-bold" style={{width:"90%",height:"20px"}}> 90% </div>
+                    </div>
+                    <h6 className="mb-3">Mozilla Firefox</h6>
+                    <div className="progress mb-3">
+                      <div className="progress-bar progress-bar-striped bg-success font-weight-bold" style={{width:"82%",height:"20px"}}> 82% </div>
+                    </div>
+                    <h6 className="mb-3">Safari</h6>
+                    <div className="progress mb-3">
+                      <div className="progress-bar progress-bar-striped bg-danger font-weight-bold" style={{width:"67%",height:"20px"}}> 67% </div>
+                    </div>
+                    <h6 className="mb-3">Internet Exploler</h6>
+                    <div className="progress mb-3">
+                      <div className="progress-bar progress-bar-striped bg-info font-weight-bold" style={{width:"30%",height:"20px"}}> 30% </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xl-6 col-12">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
     );
   }
